@@ -1,0 +1,18 @@
+# LIST YOUR PYTHON3 PACKAGES HERE
+# NOTE: only place non-Duckietown libraries here; pin versions only if necessary
+
+pip >= 23.1.0
+
+# Jetson packages
+#   - 2.0.20 is the last version supporting Python3.8
+Jetson.GPIO<=2.0.20
+nano
+
+# RPi packages
+RPi.GPIO
+
+# dependencies for the OLED display
+luma.oled
+
+# dependencies for the IMU sensor
+adafruit-circuitpython-mpu6050

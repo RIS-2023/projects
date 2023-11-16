@@ -1,0 +1,5 @@
+<launch>
+	<node name="cd70" pkg="cd70" type="publisher.py" output="screen"/>
+	<node name="cd70_ignore" pkg="cd70" type="detect.py" output="screen"/>
+</launch>
+
